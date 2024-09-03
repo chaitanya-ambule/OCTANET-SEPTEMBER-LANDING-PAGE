@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: ivory;
+}
+.header{
+   background-color:black;
+   height:70px;
+   width: 100%;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.logo{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptR9KMq6J3QYuUTA6VfyM8N1JVnZdQbWe6g&s");
+    display: flex;
+    height: 70px;
+    width:70px;
+    background-size: cover;
+    align-items: center;
+  
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 680px;
+    height: 35px;
+    border-radius: 10px;
+}
+.search-select{
+    background-color:white;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: slategrey;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.section{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-size: cover;
+    border: solid 2px black;
+
+}
+.box-1{
+    background-image: url("https://cdn.firstcry.com/education/2022/05/01150557/1539684737.jpg");
+    height: 300px;
+    width: 500px;
+    border-color:solid 2px black;
+    background-size: cover;
+    border-right:solid 2px black;
+}
+.box-2{
+    background-image: url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/08/34/e1/cd.jpg");
+    height: 300px;
+    width: 500px;
+    border-color:solid 2px black;
+    background-size: cover;
+    border-right:solid 2px black;
+}
+.box-3{
+    background-image: url("https://www.thehitavada.com/Encyc/2022/6/21/Qutub-Minar_202206210948551657_H@@IGHT_300_W@@IDTH_500.jpg");
+    height: 300px;
+    width: 500px;
+    border-color:solid 2px black;
+    background-size: cover;
+    border-right:solid 2px black;
+}
+.traveltemple{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-size: cover;
+    border: solid 2px black;
+
+}
+.box-4{
+    background-image: url("https://akm-img-a-in.tosshub.com/aajtak/images/story/202401/65b73937dd966-earthquake-ayodhya-ram-temple-293550361-16x9.jpg?size=948:533");
+    height: 350px;
+    width: 50%;
+    border-color:solid 2px white;
+    background-size: cover;
+    border-right:solid 2px black;
+}
+.box-5{
+    background-image: url("https://www.gloriousmaharashtra.com/wp-content/uploads/2022/10/ajanta-and-ellora-caves.jpg");
+    height: 350px;
+    width: 50%;
+    color: aliceblue;
+    border-color:solid 2px white;
+    background-size: cover;
+    border-right:solid 2px black;
+    border-bottom: solid 2px white;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #5e7be3;
+    color:black;
+    text-align: center;
+}
+.TRAVEL-PLACES{
+    text-align: center;
+    color: black;
+    background-color: #5e7be3;
+}
+
